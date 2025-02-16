@@ -128,9 +128,182 @@ nav ul li {
 
 .skills-container img {
     padding: 1.25rem;
+    border-radius: 6px;
 }
 
-.icon {
+.icon-card {
     width: 11.875rem;
     height: 11.25rem;
+}
+
+/* projects section */
+#projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.project-img {
+    width: 95%;
+    height: 80%;
+}
+
+.project-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Web-dev {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.IOS-dev {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.Web-dev p {
+    padding: 0.4rem;
+}
+
+.IOS-dev p {
+    padding: 0.4rem;
+}
+
+.project-title {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+
+/* contact section */
+
+#info {
+    margin-left: 20px;
+    justify-content: left;
+    display: inline-grid;
+}
+#info img {
+    width: 6rem;
+    height: 6rem;
+}
+
+/* Scroll to top button */
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* footer section */
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+/* general settings */
+.skill-icon {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 1.5rem 1rem;
+    }
+
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        margin: 8px;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    #about {
+        margin-top: -4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #about img {
+        height: 37.5rem;
+        width: 30rem;
+    }
+
+    .bio {
+        margin-top: -7rem;
+        width: 20.5rem;
+    }
+
+    .icon-card {
+        width: 5.875rem;
+        height: 5.25rem;
+    }
+
+    .project-container {
+        width: 20.875rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #about img {
+        height: 37.5rem;
+        width: 23rem;
+    }
+
+    .bio {
+        width: 18.3rem;
+    }
+
+    .Web-dev {
+        width: 17.875rem;
+    }
+
+    .IOS-dev {
+        width: 17.875rem;
+    }
 }
