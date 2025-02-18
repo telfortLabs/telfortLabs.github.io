@@ -8,7 +8,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
         <link href="./resources/css/style.css" rel="stylesheet">
-        <title>Pierr Telfort | IOS dev & Full Stack dev</title>
+
+<!--        &lt;!&ndash; Animate CSS CDN &ndash;&gt;-->
+<!--        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>-->
+
+        <title>Pierre Telfort | IOS dev & Full Stack dev</title>
     </head>
     <body>
         <!-- NavBar -->
@@ -16,17 +20,20 @@
             <nav>
                 <h1 class="header">Pierre Telfort</h1>
                 <ul>
-                    <li class="nav"><a href="#about">about</a></li>
-                    <li class="nav"><a href="#skills">Skills</a></li>
-                    <li class="nav"><a href="#projects">Projects</a></li>
-                    <li class="nav"><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="navLink">about</a></li>
+                    <li><a href="#skills" class="navLink">Skills</a></li>
+                    <li><a href="#projects" class="navLink">Projects</a></li>
+                    <li><a href="#contact" class="navLink">Contact</a></li>
                 </ul>
+                <button class="nav-toggle" id="menu-icon">
+                    <ion-icon class="bars" name="menu-outline"></ion-icon>
+                </button>
             </nav>
          </header>
 
          <!-- About section -->
          <section id="about">
-             <img src="./resources/images/thinking.jpeg" class="leThinker" alt="solving problems picture" />
+             <img src="./resources/images/solution3.svg" class="leThinker" alt="solving problems picture" />
              <div class="bio">
                  <h2 class="bio-title">About me</h2>
                  <p class="bio-text">
@@ -58,88 +65,65 @@
 
         <!-- Projects section -->
         <section id="projects">
-            <h2 class="projects-title">Some of recent my Projects</h2>
-            <div class="project-container">
-                <div class="project-items">
-                    <article class="Web-dev project-card">
-                        <img src="./resources/images/TeaCozy-project.png" class="project-img" alt="TeaCozy project" />
-                        <h3 class="project-title">TeaCozy project</h3>
-                        <p class="project-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                            ratione vel inventore labore commodi modi quos culpa aut saepe!
-                            Alias!
-                        </p>
-                    </article>
-                    <article class="Web-dev project-card">
-                        <img src="./resources/images/fotomatic-project.png" class="project-img" alt="Fotomatic project" />
-                        <h3 class="project-title">Fotomatic project</h3>
-                        <p class="project-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                            ratione vel inventore labore commodi modi quos culpa aut saepe!
-                            Alias!
-                        </p>
-                    </article>
-                    <article class="Web-dev project-card">
-                        <img src="./resources/images/DallasRyder-project.png" class="project-img" alt="Dallas Riders project" />
-                        <h3 class="project-title">Dallas Riders project</h3>
-                        <p class="project-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                            ratione vel inventore labore commodi modi quos culpa aut saepe!
-                            Alias!
-                        </p>
-                    </article>
-                </div>
-                <div class="project-items">
-                    <article class="IOS-dev project-card">
-                        <img src="./resources/images/cookBook.png" class="project-img" alt="CookBook project" />
-                        <h3 class="project-title">CookBook project</h3>
-                        <p class="project-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                            ratione vel inventore labore commodi modi quos culpa aut saepe!
-                            Alias!
-                        </p>
-                    </article>
-                    <article class="IOS-dev project-card">
-                        <img src="./resources/images/Quiz1.png" class="project-img" alt="Quiz app project" />
-                        <h3 class="project-title">Quiz app project</h3>
-                        <p class="project-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                            ratione vel inventore labore commodi modi quos culpa aut saepe!
-                            Alias!
-                        </p>
-                    </article>
-                    <article class="IOS-dev project-card">
-                        <img src="./resources/images/Socialapp1.png" class="project-img" alt="Social app project" />
-                        <h3 class="project-title">Social app project</h3>
-                        <p class="project-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                            ratione vel inventore labore commodi modi quos culpa aut saepe!
-                            Alias!
-                        </p>
-                    </article>
-                </div>
+            <h2 class="projects-title">Some of my recent Projects</h2>
+            <div class="project-items">
+                <article class="Web-dev project-card">
+                    <img src="./resources/images/TeaCozy-project.png" class="project-img" alt="TeaCozy project" />
+                    <h3 class="project-title">TeaCozy project</h3>
+                    <p class="project-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                </article>
+                <article class="Web-dev project-card">
+                    <img src="./resources/images/fotomatic-project.png" class="project-img" alt="Fotomatic project" />
+                    <h3 class="project-title">Fotomatic project</h3>
+                    <p class="project-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                </article>
+                <article class="Web-dev project-card">
+                    <img src="./resources/images/DallasRyder-project.png" class="project-img" alt="Dallas Riders project" />
+                    <h3 class="project-title">Dallas Riders project</h3>
+                    <p class="project-details">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                </article>
             </div>
         </section>
 
         <!-- Contact section -->
-        <section id="info">
+        <section id="contact">
+            <h2 >Contact me</h2>
+            <br>
             <h3>Pierre Telfort</h3>
             <h5>telfortps18@gmail.com</h5>
             <h5>817-668-5714</h5>
             <a href="https://www.linkedin.com/in/pierre-telfort-b0227254/" target="_blank" class="pierre-Social-page">
-                <img src="./resources/icons/linkedin-icon.jpeg"  alt="link to Pierre linkedin page" />
+                <img src="./resources/icons/linkedin-icon.jpeg"  alt="link to social media page" />
             </a>
         </section>
 
         <!-- Scroll to the top -->
-        <section class="scroll-up" id="up-arrow">
+        <i class="scroll-up" id="up-arrow">
             <img src="./resources/icons/icons8-upward-arrow.gif" class="up-icon"  alt="upward arrow" />
-        </section>
+        </i>
 
         <!-- Contact section -->
         <footer>
             <h5>&copy; copyright Pierre Portfolio 2025</h5>
         </footer>
 
+        <!-- Website scripts -->
+        <script src="./resources/JS/app.js"></script>
+
+        <!-- Ion icons scripts -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
