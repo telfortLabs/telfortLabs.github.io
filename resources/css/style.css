@@ -108,7 +108,7 @@ nav ul li {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    box-shadow: 0 2px 15px 2px var(--primary-shadow);
 }
 
 .bio h1 {
@@ -286,7 +286,6 @@ nav ul li {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    border: none;
     border: 2px outset var(--primary-color);
     font-size: 0.875rem;
     outline: none;
