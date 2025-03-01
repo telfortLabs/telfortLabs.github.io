@@ -117,11 +117,6 @@
                             if needed. At the end of the test, the user
                             will be able to see if they passed or failed.
                         </p>
-                        <!-- The commented code below is to display, next & previous arrows.  -->
-
-<!--                        &lt;!&ndash; Next and previous buttons &ndash;&gt;-->
-<!--                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>-->
-<!--                        <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
                     </article>
 
                     <article class="Mobile-dev project-card">
@@ -146,11 +141,6 @@
                             add the list of ingredients for the dish and
                             instructions on how to prepare it.
                         </p>
-                            <!-- The commented code below is to display, next & previous arrows.  -->
-
-<!--                        &lt;!&ndash; Next and previous buttons &ndash;&gt;-->
-<!--                        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>-->
-<!--                        <a class="next" onclick="plusSlides2(1)">&#10095;</a>-->
                     </article>
                 </div>
             </div>
@@ -158,14 +148,39 @@
         </section>
 
         <!-- Contact section -->
-        <section id="contact">
-            <h2 >Contact info</h2>
+        <section id="contact" class="contact-section">
+            <h2 >Get in touch</h2>
             <br>
-            <h3>Pierre Telfort</h3>
-            <h5>telfortps18@gmail.com</h5>
-            <h5>817-668-5714</h5>
-            <a href="https://www.linkedin.com/in/pierre-telfort-b0227254/" target="_blank" class="pierre-Social-page">
-                <img src="./resources/icons/linkedin-icon.jpeg"  alt="link to social media page" />
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="9e557c4e-c0c1-444b-ade7-1f0a166289ba">
+
+                    <!-- Necessary fields for contact form -->
+                    <div class="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" class="user-input" required>
+                    </div>
+                    <div class="contact-form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your E-mail" class="user-input" required>
+                    </div>
+                    <div class="contact-form">
+                        <label for="message">Message</label>
+                        <textarea cols="60" rows="10" id="message" name="message" placeholder="Enter Your Message" class="user-input" required></textarea>
+                    </div>
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button type="submit" value="Submit" id="submit-btn" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="social">
+            <a href="https://www.linkedin.com/in/pierre-telfort-b0227254/" target="_blank" >
+                <img src="./resources/icons/linkedin-circled.gif"  class="pierre-Social-page" alt="link to social media page" />
             </a>
         </section>
 
