@@ -300,6 +300,7 @@ nav ul li {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
+    color: var(--primary-color);
     background-color: #fff;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
@@ -309,8 +310,8 @@ nav ul li {
 }
 
 .submit-btn:hover {
-    background-color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    background-color: #bfbf58;
+    border: #bfbf58;
     cursor: pointer;
 }
 /* end of contact section */
