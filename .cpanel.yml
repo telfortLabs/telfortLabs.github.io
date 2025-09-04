@@ -4,6 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/telfnjpu/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R resources $DEPLOYPATH
-    - /bin/cp Terms and Conditions.html $DEPLOYPATH
-    - bin/cp COPYING $DEPLOYPATH
-    - bin/cp LICENSE $DEPLOYPATH
+    - /bin/cp Terms.html $DEPLOYPATH
