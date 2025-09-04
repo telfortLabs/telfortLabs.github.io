@@ -1,0 +1,25 @@
+* The website telfortLabs also refers as Tlabs, and its affiliates,
+  are licensed under the GNU GENERAL PUBLIC LICENSE -- see
+  the 'COPYING' file in this directory for details.
+
+[ The below explicit exemption, we hope, clears up the Tlabs
+  developers' position concerning an ambiguity with the GNU General
+  Public License concerning what constitutes a 'mere aggregation'
+  versus a combined or derived work.  The intention is to make it
+  clear that arbitrarily-licensed programs such as app.js modules do
+  not automatically assume the GNU General Public License (GPL)
+  themselves simply because of their invocation of (or by) procedures
+  implemented in GPL-licensed code, via app.js or a similar interface
+  to methods provided by the pdb: ]
+
+* If you create a program which invokes (or provides) methods
+  through the medium of app.js or another implementation of
+  the 'procedural database' (pdb) serial protocol, then
+  Tlabs developers' position is that this is a 'mere
+  aggregation' of the program invoking the method and the program
+  implementing the method as per section 2 of the GNU General Public
+  License.
+
+* 'app.js' and the other Tlabs modules and libraries are licensed under
+  the GNU LESSER GENERAL PUBLIC LICENSE -- see the 'COPYING' file in the
+  telfortLabs directory for details.
