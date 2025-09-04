@@ -11,3 +11,8 @@
 ###
 ### The resources folder contains essential elements, including icons, CSS, and JavaScript files, that enhance the website’s interactivity.
 ###
+
+### LICENSE
+[GPL-3.0-or-later license](COPYING)
+
+[TelfortLabs LICENSE](LICENSE)
