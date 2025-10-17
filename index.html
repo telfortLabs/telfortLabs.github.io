@@ -164,10 +164,10 @@
             <h2 >Get in touch</h2>
             <br>
             <div class="contact-container">
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form id="form" action="https://api.web3forms.com/submit" method="POST">
 
                     <!-- Replace with your Access Key -->
-                    <input type="hidden" name="access_key" value="91c23a5d-a8c3-48aa-b2af-0c332a318647">
+                    <input type="hidden" name="access_key" value="9e557c4e-c0c1-444b-ade7-1f0a166289ba">
 
                     <!-- Necessary fields for contact form -->
                     <div class="contact-form">
@@ -208,6 +208,13 @@
 
         <!-- Website scripts -->
         <script src="./resources/JS/app.js"></script>
+
+        <script>
+            window.onload = function() {
+                // Reset the form fields when the page loads
+                document.getElementById("form").reset();
+            };
+        </script>
 
         <!-- Ion icons scripts -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
