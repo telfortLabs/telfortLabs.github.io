@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+    <g id="SvgjsG1555">
+        <linearGradient id="SvgjsLinearGradient1554" x1="500.662375" y1="870.605881" x2="500.662375" y2="53.605881" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa801" stop-opacity="1"></stop>
+            <stop offset="1" stop-color="#ffcc01" stop-opacity="1"></stop>
+        </linearGradient>
+        <filter id="SvgjsFilter1553" x="0" y="0" width="1000" height="1000" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-color="#000000" flood-opacity="0.5"></feFlood>
+            <feComposite in2="SourceGraphic" operator="out"></feComposite>
+            <feGaussianBlur stdDeviation="72"></feGaussianBlur>
+            <feOffset dx="0" dy="55"></feOffset>
+            <feComposite in2="SourceGraphic" operator="atop"></feComposite>
+        </filter>
+        <path id="SvgjsPath1552" fill="url(#linearGradient1)" fill-rule="evenodd" stroke="none" opacity="0.9" filter="url(#filter1)" d="M 379.123566 103.70575 L 363.00824 97.959045 C 301.124786 75.891235 239.476761 74.471008 202.558319 138.194275 C 172.543869 190.000122 177.481567 226.748413 176.081528 282.120605 C 175.633484 299.853455 138.948822 335.395203 128.272766 347.826843 C 86.617279 396.333679 28.849745 472.822144 32.937302 543.300903 C 34.716793 573.97937 66.731468 587.294006 40.02956 610.683228 C -2.603841 648.024048 50.093719 711.688965 78.979622 735.338013 C 112.497414 762.778809 117.795441 766.735107 136.302536 803.900269 C 166.797684 865.140503 261.794067 878.666321 318.267975 867.387695 C 398.481628 851.366455 434.636261 820.660889 497.152649 774.675537 C 511.078735 764.431763 547.818787 786.956238 562.393738 791.95874 C 670.279846 828.988525 752.848022 788.772949 814.760132 692.80603 C 852.148132 634.851318 860.007019 602.508606 842.299316 535.162903 C 840.726685 529.178101 879.281128 532.773682 885.880737 532.421814 C 946.77002 529.174683 964.21936 501.600952 967.666382 438.873596 C 972.06073 358.890381 932.780762 242.424561 865.458252 197.113281 C 846.971008 184.669678 833.925842 187.440674 823.207275 165.157837 C 786.638428 89.127563 693.282104 71.978943 622.630249 61.944702 C 552.666565 52.007568 475.232849 48.000793 406.425385 70.519775 C 392.817993 74.973145 384.809479 88.295532 376.425842 99.380676 C 375.405884 100.729309 380.669373 104.257019 379.123566 103.70575 Z"></path>
+        <path id="SvgjsPath1551" fill="#5120e2" fill-rule="evenodd" stroke="none" d="M 287.45874 588.605469 C 287.45874 636.233765 326.069031 674.844055 373.697266 674.844055 L 440.963287 674.844055 C 488.591492 674.844055 527.201843 636.233765 527.201843 588.605469 L 527.201843 362.660522 C 527.201843 315.032288 488.591492 276.421936 440.963287 276.421936 L 373.697266 276.421936 C 326.069031 276.421936 287.45874 315.032288 287.45874 362.660522 Z"></path>
+        <text id="SvgjsText1550" xml:space="preserve" x="505" y="396" font-family="Marker Felt" font-size="133.700088" fill="#000000">Labs</text>
+        <filter id="SvgjsFilter1549" x="0" y="0" width="1000" height="1000" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="36"></feGaussianBlur>
+            <feOffset dx="-0" dy="31" result="offsetblur"></feOffset>
+            <feFlood flood-color="#000000" flood-opacity="0.76"></feFlood>
+            <feComposite in2="offsetblur" operator="in"></feComposite>
+            <feMerge>
+                <feMergeNode></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <text id="SvgjsText1548" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#filter2)" xml:space="preserve" x="300" y="657" font-family="Helvetica Neue" font-size="439.873292" font-stretch="condensed" font-weight="700" fill="#dc2b20">T</text>
+    </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
