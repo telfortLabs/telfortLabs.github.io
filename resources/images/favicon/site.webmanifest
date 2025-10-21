@@ -3,13 +3,13 @@
   "short_name": "Tlabs",
   "icons": [
     {
-      "src": "/telfortlabs.com/my-favicon/favicon.ico/web-app-manifest-192x192.png",
+      "src": "/resources/images/favicon/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/telfortlabs.com/my-favicon/favicon.ico/web-app-manifest-512x512.png",
+      "src": "/resources/images/favicon/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
